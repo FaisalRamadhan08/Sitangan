@@ -1,0 +1,67 @@
+/* card dashboard */
+.dashboard-default-sec .card-dashboard {
+  padding-bottom: 5px;
+  padding-top: 10px;
+  border-radius: 10px;
+  height: 15vh;
+  transition: ease-in-out 0.2s;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-default-sec .card-dashboard:hover {
+  box-shadow: 22px 22px 22px rgba(0, 0, 0, 0.2);
+  transform: scale(1.04);
+  transition: ease-in-out 0.7s;
+}
+
+.dashboard-default-sec .card-dashboard h6 {
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.dashboard-default-sec .card-dashboard .card-iconika {
+  font-size: 32px;
+  line-height: 0;
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  color: #24695c;
+  background-color: rgba(36, 105, 92, 0.1);
+}
+
+.dashboard-default-sec .card-bodyika {
+  margin-bottom: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+}
+
+.dashboard-default-sec .card-titleika {
+  font-size: 18px;
+  font-weight: 800;
+  color: #1b2559;
+  font-family: "poppins", sans-serif;
+  padding-top: 7px;
+}
+
+.modal-700 {
+  max-width: 700px !important;
+}
+
+.modal-1200 {
+  max-width: 1200px !important;
+}
+
+.max-height-550 {
+  max-height: 550px !important;
+  overflow: auto;
+}
+
+#map {
+  height: 400px;
+}
+
+.cursor-pointer{
+  cursor: pointer !important;
+}
